@@ -1,0 +1,46 @@
+{
+  "name": "sys-logger",
+  "version": "1.0.0",
+  "description": "A lightweight wrapper for logging to a local file",
+  "keywords": [
+    "log",
+    "logger",
+    "logging",
+    "sys",
+    "system"
+  ],
+  "homepage": "https://github.com/tflanagan/node-sys-logger",
+  "bugs": {
+    "url": "https://github.com/tflanagan/node-sys-logger/issues",
+    "email": "contact@tristianflanagan.com"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Tristian Flanagan",
+    "url": "https://github.com/tflanagan",
+    "email": "contact@tristianflanagan.com"
+  },
+  "maintainers": [
+    {
+      "name": "Tristian Flanagan",
+      "url": "https://github.com/tflanagan",
+      "email": "contact@tristianflanagan.com"
+    }
+  ],
+  "contributors": [
+    "Tristian Flanagan <contact@tristianflanagan.com> (https://github.com/tflanagan)"
+  ],
+  "main": "src/logger.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tflanagan/node-sys-logger.git"
+  },
+  "dependencies": {
+    "dateformat": "^2.0.0",
+    "lodash.merge": "^4.6.0"
+  },
+  "engines": {
+    "node": ">=4.0.*"
+  },
+  "git": "git@github.com:tflanagan/node-sys-logger.git"
+}
