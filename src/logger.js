@@ -39,6 +39,10 @@ class Logger {
 
 		if(data){
 			data = data.replace(/[\u001b\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g, '');
+
+			if(!data.endsWith('\n')){
+				data += '\n';
+			}
 		}
 
 		if(!this._verifyDestination()){
@@ -51,7 +55,7 @@ class Logger {
 			});
 		}
 
-		this.file.write(this._now.toISOString() + ': ' + data + '\n');
+		this.file.write(this._now.toISOString() + ': ' + data);
 
 		return this;
 	}
